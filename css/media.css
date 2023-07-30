@@ -12,6 +12,11 @@
         gap: 56px;
     }
 
+    .portfolio-i-i-title{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
     .modal {
         min-width: 392px;
     }
@@ -40,6 +45,13 @@
     .header-address-list {
         flex-direction: column;
         gap: 12px;
+    }
+
+    .header-address-link {
+        color: var(--slate, #434455);
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
     }
 
     .emphasis {
@@ -121,6 +133,7 @@
 
     .main-customers-list {
         gap: 24px;
+        row-gap: 72px;
     }
 
     .main-customers-item {
@@ -275,6 +288,10 @@
 
     .footer-first-block {
         margin-right: 40px;
+    }
+
+    .portfolio-section {
+        padding: 100px 0 120px;
     }
 
     .portfolio-img-item {
