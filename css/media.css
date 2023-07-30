@@ -146,6 +146,26 @@
     .footer-form {
         flex-direction: row;
     }
+
+    .portfolio-img-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .portfolio-img-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 72px;
+    }
+
+    .portfolio-btn-list {
+        justify-content: center;
+    }
+
+    .overlay img {
+        width: 356px;
+        height: 300px;
+    }
     
     .modal {
         min-width: 408px;
@@ -255,5 +275,18 @@
 
     .footer-first-block {
         margin-right: 40px;
+    }
+
+    .portfolio-img-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .portfolio-img-list {
+        row-gap: 48px;
+    }
+
+    .overlay img {
+        width: 360px;
+        height: 300px;
     }
 }
