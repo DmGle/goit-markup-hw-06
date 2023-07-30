@@ -199,6 +199,12 @@
         gap: 40px;
     }
 
+    .header-address-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
     .main-hero {
         max-width: 1440px;
         height: 600px;
